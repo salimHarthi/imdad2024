@@ -24,7 +24,7 @@ st.set_page_config(layout="wide")
 # df = pd.read_csv('detailed_journeys.csv')
 st.header("Fish Tracking Dashboard")
 
-tabs = st.tabs(["Journeys","Track Journey","Fish Healthiness","About Us"])
+tabs = st.tabs(["Journeys","Track Journey","Fish Quality","About Us"])
 
 with tabs[0]:
     df = pd.read_csv("journey_df.csv").drop("Unnamed: 0",axis=1)
@@ -95,7 +95,7 @@ with tabs[1]:
 
 with tabs[2]:
     
-    st.title("Fish Healthiness Assurance")
+    st.title("Fish Quality Assurance")
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
