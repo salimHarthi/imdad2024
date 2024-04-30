@@ -114,13 +114,13 @@ with tabs[3]:
     )
     container = st.container()
     team_members = [
-    {"name": "Salim", "job_title": "CEO", "image_url": "salim.jpeg"},
-    {"name": "Ahmed", "job_title": "CEO", "image_url": "ahmed.jpeg"},
+    {"name": "Salim", "job_title": "Software Engineer", "image_url": "salim.jpeg"},
+    {"name": "Ahmed", "job_title": "AI Engineer / Designer", "image_url": "ahmed.jpeg"},
     {"name": "Madona", "job_title": "CEO", "image_url": "madona.jpg"},
-    {"name": "Saud", "job_title": "CEO", "image_url": "saud.jpeg"},
-    {"name": "Ghadeer", "job_title": "CEO", "image_url": "ghadeer.jpg"},
-    {"name": "Noor", "job_title": "CEO", "image_url": "noor.jpg"},
-    {"name": "Isehaq", "job_title": "CEO", "image_url": "isehaq.jpg"},
+    {"name": "Saud", "job_title": "Blockchain Engineer/the GOAT", "image_url": "saud.jpeg"},
+    {"name": "Ghadeer", "job_title": "Software Engineer ", "image_url": "ghadeer.jpg"},
+    {"name": "Noor", "job_title": "Marine Scintest", "image_url": "noor.jpg"},
+    {"name": "Isehaq", "job_title": "Markiting Speciallist", "image_url": "isehaq.jpg"},
 ]
     st.markdown("""
     <style>
