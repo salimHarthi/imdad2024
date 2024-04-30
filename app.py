@@ -87,11 +87,17 @@ with tabs[1]:
     # st.write(list(journey_data['history']))
 
     for hist in eval(journey_data['history']):
+        if hist['avg_temp'] > 10 :
+            color= 'red'
+        elif hist['avg_temp'] in range(5, 10):
+            color= 'orange'
+        else: 
+            color= 'green'
 
         with st.expander(f"{str(hist['time']).split('.')[0]} - - {hist['stage']}"):
             metrics = st.columns(4)
-            metrics[2].metric("Avg Temp",hist['avg_temp'] )
-            metrics[3].metric("Location",hist['location'] )
+            metrics[2].metric("Avg Temp",hist['avg_temp'], color= color)
+            metrics[3].metric("Location",hist['location'])
 
 with tabs[2]:
     
