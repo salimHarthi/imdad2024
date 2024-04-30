@@ -99,7 +99,7 @@ with tabs[1]:
                 avg_temp_color= 'orange'
             else: 
                 avg_temp_color= 'green'
-            metrics[2].markdown(f"<font color='{avg_temp_color}' size='+2'>{hist['avg_temp']}</font>", unsafe_allow_html=True)
+            metrics[2].markdown(f"## <font color='{avg_temp_color}' size='+2'>{hist['avg_temp']}</font>", unsafe_allow_html=True)
             metrics[3].metric("Location",hist['location'])
             
 
