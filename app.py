@@ -94,11 +94,11 @@ with tabs[1]:
             metrics = st.columns(4)
             metrics[2].metric("Avg Temp",hist['avg_temp'])
             if hist['avg_temp'] > 10 :
-                color= 'red'
+                avg_temp_color= 'red'
             elif hist['avg_temp'] in range(5, 10):
-                color= 'orange'
+                avg_temp_color= 'orange'
             else: 
-                color= 'green'
+                avg_temp_color= 'green'
             metrics[2].markdown(f"<font color='{avg_temp_color}'>{hist['avg_temp']}</font>", unsafe_allow_html=True)
             metrics[3].metric("Location",hist['location'])
             
