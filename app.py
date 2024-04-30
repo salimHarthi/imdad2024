@@ -121,8 +121,8 @@ with tabs[3]:
     {"name": "Ghadeer", "job_title": "Software Engineer ", "image_url": "ghadeer.jpg"},
     {"name": "Noor", "job_title": "Marine Scientist", "image_url": "noor.jpg"},
     {"name": "Isehaq", "job_title": "Markiting Speciallist", "image_url": "isehaq.jpg"},
-    {"name": "Hala", "job_title": "Food Scientist", "image_url": "hala.jpg"},
-    {"name": "Mayasa", "job_title": "Food Scientist", "image_url": "mayasa.jpg"},
+    {"name": "Hala", "job_title": "Food Scientist", "image_url": "hala.JPG"},
+    {"name": "Mayasa", "job_title": "Food Scientist", "image_url": "mayasa.JPG"},
 ]
     st.markdown("""
     <style>
