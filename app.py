@@ -119,7 +119,7 @@ with tabs[3]:
     {"name": "Madona", "job_title": "CEO", "image_url": "madona.jpg"},
     {"name": "Saud", "job_title": "Blockchain Engineer/the GOAT", "image_url": "saud.jpeg"},
     {"name": "Ghadeer", "job_title": "Software Engineer ", "image_url": "ghadeer.jpg"},
-    {"name": "Noor", "job_title": "Marine Scintest", "image_url": "noor.jpg"},
+    {"name": "Noor", "job_title": "Marine Scientist", "image_url": "noor.jpg"},
     {"name": "Isehaq", "job_title": "Markiting Speciallist", "image_url": "isehaq.jpg"},
 ]
     st.markdown("""
