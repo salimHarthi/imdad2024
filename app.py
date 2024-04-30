@@ -133,7 +133,7 @@ with tabs[3]:
     {"name": "Salim", "job_title": "AI Engineer", "image_url": "salim.jpeg"},
     {"name": "Ahmed", "job_title": "Data Scientist", "image_url": "ahmed.jpeg"},
     {"name": "Madona", "job_title": "Electrical Engineer", "image_url": "madona.jpg"},
-    {"name": "Saud", "job_title": "Blockchain Engineer/the GOAT", "image_url": "saud.jpeg"},
+    {"name": "Saud", "job_title": "Project Manager", "image_url": "saud.jpeg"},
     {"name": "Ghadeer", "job_title": "Software Engineer ", "image_url": "ghadeer.jpg"},
     {"name": "Noor", "job_title": "Marine Scientist", "image_url": "noor.jpg"},
     {"name": "Isehaq", "job_title": "Markiting Speciallist", "image_url": "isehaq.jpg"},
