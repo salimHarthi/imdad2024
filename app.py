@@ -6,6 +6,7 @@ import streamlit as st
 from PIL import Image
 from skimage.feature import hog
 import joblib as joblib
+
 clf = joblib.load('fish_classifier_model.pkl')
 lables= {0:"Healthy",1:"Unhealthy"}
 
@@ -22,7 +23,12 @@ def extract_features(image):
 st.set_page_config(layout="wide")
 
 # df = pd.read_csv('detailed_journeys.csv')
-st.header("Fish Tracking Dashboard")
+# Create a layout with two columns
+col1, col2 = st.columns([1, 8])
+
+# Display the logo in the first column
+col1.image('logo.jpeg', use_column_width=True)
+col2.header("Fish Tracking Dashboard")
 
 tabs = st.tabs(["Journeys","Track Journey","Fish Quality","About Us"])
 
@@ -134,16 +140,7 @@ with tabs[3]:
     {"name": "Hala", "job_title": "Food Scientist", "image_url": "hala.JPG"},
     {"name": "Mayasa", "job_title": "Food Scientist", "image_url": "mayasa.JPG"},
 ]
-    st.markdown("""
-    <style>
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    </style>
-""", unsafe_allow_html=True)
+
     num_columns = 3  # Number of columns to display
     
     # Calculate number of rows based on number of team members and columns
